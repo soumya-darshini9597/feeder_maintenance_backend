@@ -24,5 +24,5 @@ urlpatterns = [
     path('get_feeders/',get_feeders),
     path('get_feeders/<int:id>/',get_feeders),
     path('create_feeder_view/',create_feeder_view),
-    path('get_targetHeight/',get_targetHeight),
+    # path('get_targetHeight/',get_targetHeight),
 ]

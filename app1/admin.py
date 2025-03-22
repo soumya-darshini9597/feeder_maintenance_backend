@@ -3,4 +3,4 @@ from .models import *
 
 @admin.register(Feeder)
 class feeder(admin.ModelAdmin):
-    list_display = ('id','mesuredHeight','stepCount','conformationHeight')
+    list_display = ('id','mesuredHeight','stepCount','confirmationHeight')
